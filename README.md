@@ -1,0 +1,12 @@
+# evaluating-spatial-dynocc-models
+Analyses supporting the publication: 'Evaluating the influence of neighborhood connectivity and habitat effects in dynamic occupancy species distribution models' Oriol Solà, Núria Aquilué, Sara Fraixedas, Lluís Brotons.
+
+1.	Exploring new approaches and methodologies to characterize species distribution dynamics, instead of solely relying on static spatial patterns, should be a priority for species distribution model research. Dynamic occupancy models (here, 'dynocc models') are a promising tool to capture temporal patterns of distribution change but their spatial accuracy has been shown to be low. Incorporating spatial formulations into the dynocc models by accounting for connectivity might lead to more accurate predictions, but up to know, there are no studies evaluating whether these spatial formulations can enhance model predictions of range changes across various species.
+
+2.	We evaluated whether making dynocc models more spatially explicit by adding neighborhood connectivity effects to the colonization and extinction functions of the model can improve model predictions. For that, we compared dynocc models accounting either for neighbourhood connectivity only, for site-level habitat covariates only, or combining both neighbourhood and habitat explanations in the models for species extinction and colonisation. All models were evaluated for a total of 46 bird species typical of forests and shrublands using data at 1km2 scale from two Catalan breeding bird atlases (CBBA2: 1999-2002) and (CBBA3: 2015-2018).
+
+3.	We found that for most bird species (80%), dynocc models with habitat covariates only predicted better than models only accounting for connectivity. Combining connectivity and habitat covariates improved model performance even more, but performance gains were relatively low for most species.
+
+4.	This study shows the benefits of considering more mechanistic formulations of the dynocc model, specifically incorporating neighborhood connectivity into the extinction and colonization processes. Our work also highlights the importance of evaluating different model formulations and assessing which aspects of the model are more important depending on the study species.
+
+Script files to replicate the data preparation, model fitting, analysis, and plot generation are provided here. Species occurrence and environmental data used for fitting models are available upon reasonable request (contact: o.sola@creaf.uab.cat).
