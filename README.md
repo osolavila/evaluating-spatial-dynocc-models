@@ -9,6 +9,7 @@ Script files to replicate the data preparation, model fitting, analysis, and plo
 
 
 Metadata:
+
 1 Models_CBBA_species
 -	Models_CBBA_species/Functions: help functions to support model fitting and evaluation.
 -	Models_CBBA_species/Data_preparation: loads CBBA2 and CBBA3 species occurrence data and supporting data for the analysis.
@@ -22,3 +23,7 @@ Metadata:
 
 3 Colext_IFM_example
 Code and worked example for the fitting function of the spatial IFM colext. It includes example species occurrence data.
+
+4 Data_supporting_results
+-	results_CBBA_auc_cross_validation.Rdata: AUC results of each train-test split for all the dynocc models and CBBAs species analysed in the study.
+-	results_simulation_auc_replicates.Rdata: AUC results of each replicate for all scenarios and dynocc models analysed in the simulation study.
